@@ -1,18 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Mulish';
+}
 /* first section design */
 .bg-img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 15px;
+    filter: brightness(50%);
 }
 .first-section-title{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    position: absolute;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+    top: 200px;
+    left: 0;
+    color: #FFF;
 }
+.first-section-description{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 300px;
+    left: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 
 /* first section design */
+
+/* second section design */
+/* .tour-plan{
+    width: 50%;
+} */
+.tour-plan-container{
+    display: flex;
+}
+.tour-plan-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.tour-plan-description{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.tour-plan-description-1{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+ul{
+    list-style: circle;
+}
+.item{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.btn{
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    margin-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* second section design */
+
+/* Gallery Section  */
+.gallery-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.gallery-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.img-container{
+    margin: left 20px;
+}
+.img-container-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+/* Gallery Section  */
+
+/* Why Choose us  */
+.special-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.special-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}    
+
+.service{
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+.section-container{
+    min-width: 400px;
+    border: 2px solid goldenrod;
+}
