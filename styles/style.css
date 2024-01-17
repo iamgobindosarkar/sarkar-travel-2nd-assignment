@@ -139,3 +139,26 @@ ul{
     min-width: 400px;
     border: 2px solid goldenrod;
 }
+
+@media screen and (max-width: 400px){
+    .bg-img{
+        width: 200%;
+    }   
+    .first-section-title{
+        position: absolute;
+        text-align: center;
+        font-size: 22px;
+        width: 60%;
+        top: 100px;
+        left: 100px;
+    }
+    .first-section-description{
+        text-align: center;
+        font-size: 14px;
+        top: 100%;
+        left: 100%;
+    }
+    .tour-plan-container{
+        
+    }
+}
