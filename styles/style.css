@@ -105,11 +105,13 @@ ul{
 }
 .img-container{
     margin: left 20px;
+    
 }
 .img-container-1{
-    display: flex;
+    display: grid;
     width: 100%;
     justify-content: space-around;
+    
 }
 /* Gallery Section  */
 
@@ -133,12 +135,59 @@ ul{
 .service{
     max-width: 1250px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
 
 }
 .section-container{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    justify-content: center;
+    text-align: center;
+}
+.section-container-1{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+}
+.section-container-2{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-title{
+    text-align: center;
+}
+.footer-description{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+}
+.icon{
+    text-align: center;
+    padding: 10px;
+}
+.copyright{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+
+/* .section-container{
     min-width: 400px;
     border: 2px solid goldenrod;
-}
+} */
 
 @media screen and (max-width: 400px){
     .bg-img{
@@ -159,6 +208,37 @@ ul{
         left: 100%;
     }
     .tour-plan-container{
-        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
+    .tour-plan-title{
+        grid-template-columns: repeat(1, 1fr);
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .tour-plan-description{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+
+    }
+    .btn{
+        display: block;
+        justify-content: center;
+    }
+    .img-container-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .special-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    }
+
+
 }
